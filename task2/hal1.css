@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(to bottom, #3498db, #ffffff);
+    align-items: center;
+    height: 100vh;
+    margin: 100px;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.pendaftaran {
+    border: 7px solid rgb(46, 85, 113);
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    
+}
+.pendaftaran1 h2 {
+    text-align: center;
+       
+}
+.pendaftaran1 {
+    border: 7px solid rgb(46, 85, 113);
+    border-radius: 20px;
+    width: 350px;
+    text-align: left;
+    margin-left: 30px; 
+    
+}
+
+
+h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 50px;
+    
+}
+
+form {
+    margin: 20px;
+    text-align: left;
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    
+}
+
+input[type="submit"] {
+    
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 5px; 
+    width: 25%;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    
+}
+
+p {
+    font-weight: bold;
+    margin-left: 30px;
+}
